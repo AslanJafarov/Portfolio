@@ -1,4 +1,3 @@
-import AuthGate from '@/components/AuthGate';
 import Cursor from '@/components/Cursor';
 import Particles from '@/components/Particles';
 import ProgressBar from '@/components/ProgressBar';
@@ -15,7 +14,7 @@ import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
-    <AuthGate>
+    <>
       {/* Client-side utilities */}
       <ProgressBar />
       <Cursor />
@@ -34,6 +33,6 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
-    </AuthGate>
+    </>
   );
 }
