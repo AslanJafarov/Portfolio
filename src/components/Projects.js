@@ -4,12 +4,12 @@ import { useState } from 'react';
 import { createPortal } from 'react-dom';
 import Image from 'next/image';
 
-import callapp1 from '../../public/projects/callapp1.webp';
 import callapp2 from '../../public/projects/callapp2.webp';
 import callapp3 from '../../public/projects/callapp3.webp';
 import callapp4 from '../../public/projects/callapp4.webp';
 import callapp5 from '../../public/projects/callapp5.webp';
 import callapp6 from '../../public/projects/callapp6.webp';
+import callapp7 from '../../public/projects/callapp7.webp';
 import recipeFinder1 from '../../public/projects/recipeFinder1.webp';
 import recipeFinder2 from '../../public/projects/recipeFinder2.webp';
 import recipeFinder3 from '../../public/projects/recipeFinder3.webp';
@@ -30,7 +30,7 @@ const projects = [
     link: 'https://callapp.apexsales.ai',
     featured: true,
     badge: 'Featured · Professional',
-    images: [callapp1, callapp2, callapp3, callapp4, callapp5, callapp6],
+    images: [callapp2, callapp3, callapp4, callapp5, callapp6, callapp7],
   },
   {
     icon: '🍽️',
