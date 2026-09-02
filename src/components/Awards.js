@@ -2,14 +2,17 @@ const awards = [
   { icon: '🥇', title: 'Code 8 Hackathon — Gold Medal', sub: 'Competitive hackathon winner' },
   { icon: '🏆', title: 'Hackathon Participation ×2', sub: 'Additional hackathon certificates' },
   { icon: '📜', title: 'Code Academy — Software Developer', sub: 'Diploma · 2025' },
-  { icon: '📜', title: 'Jet Academy — Front-End Developer', sub: 'Diploma · 2023' },
+  { icon: '📜', title: 'Code Academy — Software Developer', sub: 'Certificate · 2025' },
   { icon: '📜', title: 'Certiport — HTML & CSS Specialist', sub: 'Diploma · 2025' },
-  { icon: '🌐', title: 'IELTS 7', sub: 'English proficiency — C1 level' },
+  { icon: '📜', title: 'Jet Academy — Front-End Developer', sub: 'Diploma · 2023' },
+  { icon: '🌐', title: 'IELTS 7.5', sub: 'English proficiency — C1 level' },
   { icon: '🎓', title: 'Class President — 2 Years', sub: 'University leadership · Consecutive years' },
   { icon: '🏅', title: "5th — National Quiz 'Xemse'", sub: 'High school national competition' },
+  { icon: '📖', title: 'Winner — History Olympiad', sub: 'Elementary school' },
+  { icon: '➗', title: 'Winner — Math Olympiad', sub: 'Elementary school' },
 ];
 
-const delays = ['d1', 'd2', 'd3', 'd4', 'd5', 'd1', 'd2', 'd3'];
+const delays = ['d1', 'd2', 'd3', 'd4', 'd5', 'd6', 'd1', 'd2', 'd3', 'd4', 'd5'];
 
 export default function Awards() {
   return (
@@ -24,7 +27,7 @@ export default function Awards() {
         </div>
         <div className="awards-grid">
           {awards.map((a, i) => (
-            <div key={a.title} className={`award-card reveal ${delays[i]}`}>
+            <div key={`${a.title}-${a.sub}`} className={`award-card reveal ${delays[i]}`}>
               <div className="award-icon">{a.icon}</div>
               <div>
                 <div className="award-title">{a.title}</div>

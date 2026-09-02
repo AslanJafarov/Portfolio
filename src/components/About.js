@@ -42,8 +42,8 @@ export default function About() {
           <div className="reveal-left">
             <p style={{ color: 'var(--muted)', lineHeight: 1.9, marginBottom: '1rem' }}>
               I&apos;m a Front-End Developer with a passion for clean, scalable UIs and AI integration.
-              Currently working remotely for Caspian Solutions (Tampa, FL) while pursuing a Data Science
-              degree at the University of Messina.
+              I currently build remotely for three Tampa, FL teams — CleanLeads365, ApexSales CRM and
+              Caspian Solutions — while pursuing a Data Science degree at the University of Messina.
             </p>
             <p style={{ color: 'var(--muted)', lineHeight: 1.9, marginBottom: '1rem' }}>
               I bring high energy and a problem-solving mindset to every project. If I don&apos;t know
@@ -51,8 +51,8 @@ export default function About() {
               design concepts in my spare time.
             </p>
             <p style={{ color: 'var(--muted)', lineHeight: 1.9 }}>
-              Previously graduated in Computer Science from Baku State University (overall GPA 3.0,
-              achieving a perfect 4.0/4.0 in the final year), with an IELTS score of 7.
+              Previously graduated in Computer Science from Baku State University (overall GPA 3.5,
+              achieving a perfect 4.0/4.0 in the final year), with an IELTS score of 7.5.
             </p>
 
             <div className="about-stats">
@@ -61,7 +61,7 @@ export default function About() {
                 <div className="stat-label">Tasks completed</div>
               </div>
               <div className="stat-card">
-                <div className="stat-num">3+</div>
+                <div className="stat-num">5+</div>
                 <div className="stat-label">Real-world projects</div>
               </div>
               <div className="stat-card">
@@ -97,14 +97,18 @@ export default function About() {
               </div>
               <div>
                 <p style={{ fontWeight: 700, color: 'var(--text)', fontSize: '.9rem' }}>Baku State University</p>
-                <p style={{ color: 'var(--muted)', fontSize: '.82rem' }}>Computer Science B.Sc. — 2021–2025 · GPA 3.0 (4.0/4.0 final year)</p>
+                <p style={{ color: 'var(--muted)', fontSize: '.82rem' }}>Computer Science B.Sc. — 2021–2025 · GPA 3.5 (4.0/4.0 final year)</p>
               </div>
 
               <br />
               <p className="section-label" style={{ marginBottom: '.8rem' }}>// currently building</p>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '.7rem' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '.7rem', marginBottom: '.5rem' }}>
                 <span className="live-dot" />
                 <p style={{ color: 'var(--muted)', fontSize: '.88rem' }}>ApexSales CRM — callapp.apexsales.ai</p>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '.7rem' }}>
+                <span className="live-dot" />
+                <p style={{ color: 'var(--muted)', fontSize: '.88rem' }}>CleanLeads365 — DNC / TCPA list cleaning</p>
               </div>
             </div>
           </div>

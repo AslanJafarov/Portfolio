@@ -25,12 +25,19 @@ const projects = [
   {
     icon: '🚀',
     title: 'ApexSales CRM',
-    desc: 'Full CRM front-end for a sales team platform. Built everything from scratch — dashboards, call interfaces, lead management, real-time data, and custom UI components.',
-    tech: ['React', 'Next.js', 'TypeScript', 'Real-time data'],
+    desc: 'Full CRM front-end for a sales-team platform used daily by hundreds of agents. Dashboards, call interfaces, lead management, real-time data and custom UI components — 300+ tasks completed.',
+    tech: ['React', 'Next.js', 'JavaScript (ES6+)', 'Redux', 'REST APIs'],
     link: 'https://callapp.apexsales.ai',
     featured: true,
     badge: 'Featured · Professional',
     images: [callapp2, callapp3, callapp4, callapp5, callapp6, callapp7],
+  },
+  {
+    icon: '🧹',
+    title: 'CleanLeads365',
+    desc: 'Customer-facing web app for a DNC-scrubbing and TCPA list-cleaning SaaS — list upload, scan results, account flows, plus the marketing pages that carry visitors from a free scan to a paid plan.',
+    tech: ['React', 'Next.js', 'TypeScript', 'REST APIs', 'Landing Pages'],
+    badge: 'Professional',
   },
   {
     icon: '🍽️',
@@ -61,7 +68,7 @@ const projects = [
   },
 ];
 
-const delays = ['d1', 'd2', 'd3', 'd4', 'd5'];
+const delays = ['d1', 'd2', 'd3', 'd4', 'd5', 'd6'];
 
 function Lightbox({ images, idx, onClose, onPrev, onNext }) {
   return createPortal(

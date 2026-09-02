@@ -13,7 +13,8 @@ const categories = [
     color: 'cyan',
     tags: [
       { label: 'Hooks' }, { label: 'Context API' }, { label: 'Redux' },
-      { label: 'React Native' }, { label: 'Responsive Design' }, { label: 'API Integration' },
+      { label: 'State Management' }, { label: 'React Native' },
+      { label: 'Responsive Design' }, { label: 'API Integration' },
     ],
   },
   {
@@ -22,7 +23,18 @@ const categories = [
     color: 'pink',
     tags: [
       { label: 'Make.com' }, { label: 'CRM Customization' }, { label: 'CRM Integration' }, { label: 'Lovable' },
-      { label: 'Wix.com' }, { label: 'WordPress' }, { label: 'GoHighLevel' }, { label: 'Figma' }, { label: 'Git' }, { label: 'GitHub' }, { label: 'GitLab' }, { label: 'VS Code' }, { label: 'JSON' }, { label: 'Chrome Extensions' },
+      { label: 'Wix.com' }, { label: 'WordPress' }, { label: 'GoHighLevel' }, { label: 'Figma' },
+      { label: 'UI/UX Design' }, { label: 'Web Design' },
+      { label: 'Git' }, { label: 'GitHub' }, { label: 'GitLab' }, { label: 'VS Code' }, { label: 'Chrome Extensions' },
+    ],
+  },
+  {
+    icon: '🛠️',
+    title: 'Back-End & APIs',
+    color: 'cyan',
+    tags: [
+      { label: 'Node.js' }, { label: 'REST APIs' }, { label: 'JSON' },
+      { label: 'Docker' }, { label: 'Containerization' },
     ],
   },
   {
@@ -35,7 +47,7 @@ const categories = [
   },
 ];
 
-const delays = ['d1', 'd2', 'd3', 'd4'];
+const delays = ['d1', 'd2', 'd3', 'd4', 'd5'];
 
 export default function Skills() {
   return (
